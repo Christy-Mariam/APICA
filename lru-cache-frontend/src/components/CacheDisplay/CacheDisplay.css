@@ -1,0 +1,21 @@
+.cache-display {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.cache-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cache-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cache-list li:last-child {
+    border-bottom: none;
+}
